@@ -21,6 +21,12 @@ filter(['some-file', 'some-other-file', 'some-directory'], isFile, function(err,
 });
 ```
 
+By default all the async predicates are run in a sequential manner, which means that elements
+of the array are processed one at a time. If you  want to process them in parallel you can use
+the `filter.parallel` function. It has the same interface as the filter function.
+
+The `filter` function is also aliased to `filter.sequential`.
+
 ## License
 
 MIT
