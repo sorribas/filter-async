@@ -21,6 +21,6 @@ filter(['some-file', 'some-other-file', 'some-directory'], isFile, function(err,
 });
 ```
 
-## Lincense
+## License
 
 MIT
