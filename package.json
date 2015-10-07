@@ -1,0 +1,25 @@
+{
+  "name": "filter-async",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorribas/filter-async.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sorribas/filter-async/issues"
+  },
+  "homepage": "https://github.com/sorribas/filter-async#readme",
+  "devDependencies": {
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "each-series": "^1.0.0"
+  }
+}
