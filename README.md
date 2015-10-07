@@ -1,5 +1,7 @@
 # filter-async
 
+![https://travis-ci.org/sorribas/filter-async.svg?branch=master](https://travis-ci.org/sorribas/filter-async.svg?branch=master)
+
 Filter the elements of an array with an asynchronous predicate.
 
 ## Usage
